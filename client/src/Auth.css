@@ -1,0 +1,136 @@
+
+.auth-page {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  padding: 24px;
+  background: #f6f7fc;
+}
+
+.auth-card {
+  width: 100%;
+  max-width: 440px;
+  padding: 40px;
+  background: #fff;
+  border: 1px solid #e9eaf2;
+  border-radius: 22px;
+  box-shadow: 0 18px 55px rgba(36, 30, 90, 0.07);
+}
+
+.auth-brand {
+  margin: 0 0 30px;
+  font-size: 28px;
+  font-weight: 800;
+  color: #17172b;
+}
+
+.auth-brand span {
+  color: #7864ed;
+}
+
+.auth-eyebrow {
+  color: #7864ed;
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 1.6px;
+}
+
+.auth-card h2 {
+  margin: 12px 0 8px;
+  color: #17172b;
+  font-size: 27px;
+}
+
+.auth-subtitle {
+  margin-bottom: 28px;
+  color: #85869c;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.auth-card form {
+  display: grid;
+  gap: 18px;
+}
+
+.auth-card label {
+  display: grid;
+  gap: 8px;
+  color: #39394e;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.auth-card label.remember-me {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  color: #77788d;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.remember-me input {
+  width: 16px;
+  height: 16px;
+  margin: 0;
+  accent-color: #7864ed;
+}
+
+.auth-card input {
+  width: 100%;
+  padding: 13px 14px;
+  border: 1px solid #e2e3ee;
+  border-radius: 10px;
+  outline: none;
+  font: inherit;
+}
+
+.auth-card input:focus {
+  border-color: #7864ed;
+  box-shadow: 0 0 0 3px rgba(120, 100, 237, 0.12);
+}
+
+.auth-submit {
+  margin-top: 6px;
+  padding: 14px;
+  border: 0;
+  border-radius: 10px;
+  background: #7864ed;
+  color: white;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.auth-submit:disabled {
+  opacity: 0.65;
+  cursor: wait;
+}
+
+.auth-error {
+  margin: 0;
+  color: #dc3636;
+  font-size: 13px;
+}
+
+.auth-switch {
+  margin: 24px 0 0;
+  color: #77788d;
+  text-align: center;
+  font-size: 13px;
+}
+
+.auth-switch button {
+  border: 0;
+  background: transparent;
+  color: #7059e8;
+  font: inherit;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+@media (max-width: 480px) {
+  .auth-card {
+    padding: 28px 22px;
+  }
+}
